@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+passlib[bcrypt]
+pydantic[email]
+python-jose[cryptography] # Para JWT si EmployeeService también los emitiera (no en este caso, pero bueno tenerlo)
+# Si usaras MySQL con SQLAlchemy:
+sqlalchemy
+pymysql
+uvicorn
+cryptography
